@@ -16,7 +16,17 @@ In other words, sod off! This is my badger's den!
 
 ## Journal
 
-### 01 Feb 2025
+### 01 Feb 2025 - Part 2
+
+Trying to get this working for Cloudflare took a little effort.
+
+Cloudflare has this thing called Workers and Pages. You can have Cloudflare connect to your Github or Gitlab repo and they'll deploy it to a `pages.dev` subdomain. Problems I had was adding that subdomain as a CNAME to my hostname.
+
+In the Pages details, there's a list of tabs at the top of the page. It defaults to Deployments, but I needed Custom Domains. Once I added my hostname to that, everything worked.
+
+I'm starting to appreciate Cloudflare. Maybe they should get some of my moneys.
+
+### 01 Feb 2025 - Part 1
 
 Started this website. It's all downhill from here.
 
