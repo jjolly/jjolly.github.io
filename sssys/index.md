@@ -1,9 +1,9 @@
 ---
 title: Self-Serving Systems
-subtitle: Why would you want any of this anyway?
+subtitle: Unsolutions since 1980
 author: John Jolly
 author-url: "https://selfserving.systems"
-date: 2025-02-01
+date: 2025-02-03
 lang: en
 toc-title: Contents
 ---
@@ -15,6 +15,10 @@ This is Self-Serving Systems, your one-stop shop for all things you can't have. 
 In other words, sod off! This is my badger's den!
 
 ## Journal
+
+### 03 Feb 2025
+
+"Unsolutions". Ha, thank you Qwen.
 
 ### 01 Feb 2025 - Part 2
 
