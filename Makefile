@@ -1,6 +1,6 @@
 VERSION=$(shell jq -r .version package.json)
 DATE=$(shell date +%F)
-SRCDIR ?= ghpages
+SRCDIR ?= sssys
 
 all: index.html
 
