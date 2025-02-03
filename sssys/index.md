@@ -16,7 +16,13 @@ In other words, sod off! This is my badger's den!
 
 ## Journal
 
-### 03 Feb 2025
+### 03 Feb 2025 - Part 2
+
+Note to self: Ansible does not like a playbook file with a role that does not exist, even if the role is conditional. This breaks even before the `pre_tasks` actions are processed. This means no funny last-minutes changes can be made to fix the problem.
+
+In short, if your playbook has a role, it had better exist.
+
+### 03 Feb 2025 - Part 1
 
 "Unsolutions". Ha, thank you Qwen.
 
