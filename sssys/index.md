@@ -16,6 +16,10 @@ In other words, sod off! This is my badger's den!
 
 ## Journal
 
+### 04 Feb 2025
+
+It helps when you push your changes to the correct repo. Now my snarky website is doing what it's suppose to.
+
 ### 03 Feb 2025 - Part 2
 
 Note to self: Ansible does not like a playbook file with a role that does not exist, even if the role is conditional. This breaks even before the `pre_tasks` actions are processed. This means no funny last-minutes changes can be made to fix the problem.
