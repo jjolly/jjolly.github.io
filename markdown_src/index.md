@@ -16,6 +16,10 @@ In other words, sod off! This is my badger's den!
 
 ## Journal
 
+### 16 Jan 2026
+
+What? What? [My resume?](resume.md) Here's [the original markdown source](docs/resume.md)
+
 ### 04 Feb 2025
 
 It helps when you push your changes to the correct repo. Now my snarky website is doing what it's suppose to.
