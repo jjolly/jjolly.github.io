@@ -18,7 +18,7 @@ $if(description-meta)$
 $endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
 $for(css)$
-  <link rel="stylesheet" href="$css$" />
+  <link rel="stylesheet" href="/$css$" />
 $endfor$
 $for(header-includes)$
   $header-includes$
@@ -67,10 +67,10 @@ $table-of-contents$
 </nav>
 $endif$
 $body$
-$for(include-after)$
-$include-after$
-$endfor$
+  $for(include-after)$
+  $include-after$
+  $endfor$
   <div class="debug-grid"></div>
-  <script src="src/index.js"></script>
+  <script src="/src/index.js"></script>
 </body>
 </html>

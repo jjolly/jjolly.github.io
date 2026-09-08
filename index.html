@@ -7,8 +7,8 @@
   <meta name="author" content="John Jolly" />
   <meta name="dcterms.date" content="2025-02-03" />
   <title>Self-Serving Systems</title>
-  <link rel="stylesheet" href="src/reset.css" />
-  <link rel="stylesheet" href="src/index.css" />
+  <link rel="stylesheet" href="/src/reset.css" />
+  <link rel="stylesheet" href="/src/index.css" />
 </head>
 <body>
 <table class="header">
@@ -22,11 +22,12 @@
   </tr>
   <tr>
     <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">2025-02-05</time></td>
+    <td class="width-min"><time style="white-space: pre;">2025-02-04</time></td>
   </tr>
   <tr>
     <th class="width-min">Author</th>
-    <td class="width-auto"><a href="https://selfserving.systems"><cite>John Jolly</cite></a></td>
+    <td class="width-auto"><a href="https://selfserving.systems"><cite>John
+Jolly</cite></a></td>
     <th class="width-min">License</th>
     <td>MIT</td>
   </tr>
@@ -35,39 +36,59 @@
 <nav id="TOC" role="doc-toc">
 <h2 id="toc-title">Contents</h2>
 <ul class="incremental">
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#journal">Journal</a><ul class="incremental">
-<li><a href="#feb-2025">04 Feb 2025</a></li>
-<li><a href="#feb-2025---part-2">03 Feb 2025 - Part 2</a></li>
-<li><a href="#feb-2025---part-1">03 Feb 2025 - Part 1</a></li>
-<li><a href="#feb-2025---part-2-1">01 Feb 2025 - Part 2</a></li>
-<li><a href="#feb-2025---part-1-1">01 Feb 2025 - Part 1</a></li>
+<li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+<li><a href="#journal" id="toc-journal">Journal</a>
+<ul class="incremental">
+<li><a href="#feb-2025" id="toc-feb-2025">04 Feb 2025</a></li>
+<li><a href="#feb-2025---part-2" id="toc-feb-2025---part-2">03 Feb 2025
+- Part 2</a></li>
+<li><a href="#feb-2025---part-1" id="toc-feb-2025---part-1">03 Feb 2025
+- Part 1</a></li>
+<li><a href="#feb-2025---part-2-1" id="toc-feb-2025---part-2-1">01 Feb
+2025 - Part 2</a></li>
+<li><a href="#feb-2025---part-1-1" id="toc-feb-2025---part-1-1">01 Feb
+2025 - Part 1</a></li>
 </ul></li>
 </ul>
 </nav>
 <h2 id="introduction">Introduction</h2>
-<p>This is Self-Serving Systems, your one-stop shop for all things you can’t have. We have a wide selection of projects to tinker with, but they weren’t made for you and you likely won’t find them useful or even accessable.</p>
+<p>This is Self-Serving Systems, your one-stop shop for all things you
+can’t have. We have a wide selection of projects to tinker with, but
+they weren’t made for you and you likely won’t find them useful or even
+accessable.</p>
 <p>In other words, sod off! This is my badger’s den!</p>
 <h2 id="journal">Journal</h2>
 <h3 id="feb-2025">04 Feb 2025</h3>
-<p>It helps when you push your changes to the correct repo. Now my snarky website is doing what it’s suppose to.</p>
+<p>It helps when you push your changes to the correct repo. Now my
+snarky website is doing what it’s suppose to.</p>
 <h3 id="feb-2025---part-2">03 Feb 2025 - Part 2</h3>
-<p>Note to self: Ansible does not like a playbook file with a role that does not exist, even if the role is conditional. This breaks even before the <code>pre_tasks</code> actions are processed. This means no funny last-minutes changes can be made to fix the problem.</p>
+<p>Note to self: Ansible does not like a playbook file with a role that
+does not exist, even if the role is conditional. This breaks even before
+the <code>pre_tasks</code> actions are processed. This means no funny
+last-minutes changes can be made to fix the problem.</p>
 <p>In short, if your playbook has a role, it had better exist.</p>
 <h3 id="feb-2025---part-1">03 Feb 2025 - Part 1</h3>
 <p>“Unsolutions”. Ha, thank you Qwen.</p>
 <h3 id="feb-2025---part-2-1">01 Feb 2025 - Part 2</h3>
 <p>Trying to get this working for Cloudflare took a little effort.</p>
-<p>Cloudflare has this thing called Workers and Pages. You can have Cloudflare connect to your Github or Gitlab repo and they’ll deploy it to a <code>pages.dev</code> subdomain. Problems I had was adding that subdomain as a CNAME to my hostname.</p>
-<p>In the Pages details, there’s a list of tabs at the top of the page. It defaults to Deployments, but I needed Custom Domains. Once I added my hostname to that, everything worked.</p>
-<p>I’m starting to appreciate Cloudflare. Maybe they should get some of my moneys.</p>
+<p>Cloudflare has this thing called Workers and Pages. You can have
+Cloudflare connect to your Github or Gitlab repo and they’ll deploy it
+to a <code>pages.dev</code> subdomain. Problems I had was adding that
+subdomain as a CNAME to my hostname.</p>
+<p>In the Pages details, there’s a list of tabs at the top of the page.
+It defaults to Deployments, but I needed Custom Domains. Once I added my
+hostname to that, everything worked.</p>
+<p>I’m starting to appreciate Cloudflare. Maybe they should get some of
+my moneys.</p>
 <h3 id="feb-2025---part-1-1">01 Feb 2025 - Part 1</h3>
 <p>Started this website. It’s all downhill from here.</p>
 <hr />
 <blockquote>
-<p>Made with <a href="https://github.com/owickstrom/the-monospace-web">Monospace</a> because I hate you</p>
+<p>Made with <a
+href="https://github.com/owickstrom/the-monospace-web">Monospace</a>
+because I hate you</p>
 </blockquote>
-  <div class="debug-grid"></div>
-  <script src="src/index.js"></script>
+    <div class="debug-grid"></div>
+  <script src="/src/index.js"></script>
 </body>
 </html>
