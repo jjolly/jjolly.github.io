@@ -16,6 +16,10 @@ In other words, sod off! This is my badger's den!
 
 ## Journal
 
+### 19 Sep 2026
+
+Today I started the NotEnoughShelves (NoEnSh) project. The name is the documentation.
+
 ### 16 Jan 2026
 
 What? What? [My resume?](resume.md) Here's [the original markdown source](docs/resume.md)
