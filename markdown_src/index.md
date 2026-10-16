@@ -12,7 +12,7 @@ toc-title: Contents
 
 This is Self-Serving Systems, your one-stop shop for all things you can't have. We have a wide selection of projects to tinker with, but they weren't made for you and you likely won't find them useful or even accessable.
 
-In other words, sod off! This is my badger's den!
+In other words, what are you doing here? This is my badger's den!
 
 ## Journal
 
