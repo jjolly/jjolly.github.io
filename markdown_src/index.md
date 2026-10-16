@@ -16,6 +16,10 @@ In other words, sod off! This is my badger's den!
 
 ## Journal
 
+### 16 Oct 2026
+
+It's official. I'm moving on from MACU to a position with BYU OIT. I start November 2nd. Perhaps I'll get my computer fix *and* avoid the stain of filthy lucre. The painful downside? Leaving outstanding people like Russell, Andy, Ben, and Daniel. Truly the best in the industry. Godspeed brethren.
+
 ### 19 Sep 2026
 
 Today I started the NotEnoughShelves (NoEnSh) project. The name is the documentation.
