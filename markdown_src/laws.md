@@ -280,6 +280,10 @@ lists links back here.
 - James Reason, *Human Error* (1990) — the Swiss cheese model.
 - Henry Petroski, *To Engineer Is Human* — the case-law canon of
   engineering failure.
+- [W. J. King, *The Unwritten Laws of Engineering*](https://archive.org/details/the-unwritten-laws-of-engineering)
+  (1944) — three articles from *Mechanical Engineering* compiled into
+  the ur-text of this entire genre; still in print in revised editions.
+  The original is open on Archive.org.
 
 [^how]: Every attribution on this page was verified against a real
 source in October 2026. "Attributed" means the saying is universally
