@@ -24,28 +24,37 @@ back, next to the canon that keeps them.[^how]
   someone else.
 - Don't prove it's someone else's problem. Prove it's not yours.
 - Users don't care whose team owns the bug.
-- Never attribute to malice that which is adequately explained by
-  incompetence.
+- <a id="law-hanlon"></a>Never attribute to malice that which is
+  adequately explained by incompetence. — [*Hanlon's
+  Razor*](#the-named-laws)
 
 ### Estimation and Process
 
-- It always takes longer than you expect, even when you take into
-  account Hofstadter's Law.
-- The first 90 percent of the code accounts for the first 90 percent of
-  the development time. The remaining 10 percent of the code accounts
-  for the other 90 percent of the development time.
-- When a measure becomes a target, it ceases to be a good measure.
-- A man with a watch knows what time it is. A man with two watches is
-  never sure.
-- Adding people to a late project makes it later.
+- <a id="law-hofstadter"></a>It always takes longer than you expect,
+  even when you take into account [Hofstadter's
+  Law](#the-named-laws).
+- <a id="law-ninety-ninety"></a>The first 90 percent of the code
+  accounts for the first 90 percent of the development time. The
+  remaining 10 percent of the code accounts for the other 90 percent of
+  the development time. — [*the ninety-ninety
+  rule*](#the-named-laws)
+- <a id="law-goodhart"></a>When a measure becomes a target, it ceases
+  to be a good measure. — [*Goodhart's Law*](#the-named-laws)
+- <a id="law-segal"></a>A man with a watch knows what time it is. A man
+  with two watches is never sure. — [*Segal's Law*](#the-named-laws)
+- <a id="law-brooks"></a>Adding people to a late project makes it
+  later. — [*Brooks's Law*](#the-named-laws)
 - Nothing is temporary. Especially temporary fixes.
 
 ### Systems
 
-- If it can fail, it will fail.
-- A complex system that works is invariably found to have evolved from
-  a simple system that works.
-- Ninety percent of everything is crap.
+- <a id="law-murphy"></a>If it can fail, it will fail. — [*Murphy's
+  Law*](#the-named-laws)
+- <a id="law-gall"></a>A complex system that works is invariably found
+  to have evolved from a simple system that works. — [*Gall's
+  Law*](#the-named-laws)
+- <a id="law-sturgeon"></a>Ninety percent of everything is crap. —
+  [*Sturgeon's Law*](#the-named-laws)
 - Every process exists because something terrible happened once.
 - The most dangerous words in engineering are: "Nobody would ever do
   that."
@@ -89,8 +98,9 @@ back, next to the canon that keeps them.[^how]
 - Simple things should be simple. Complex things should be possible.[^kay]
 - We should forget about small efficiencies, say about 97% of the time.
   Premature optimization is the root of all evil.[^knuth]
-- Every application has an inherent amount of complexity that cannot be
-  removed or hidden, only moved.[^tesler]
+- <a id="law-tesler"></a>Every application has an inherent amount of
+  complexity that cannot be removed or hidden, only moved.[^tesler] —
+  [*Tesler's Law*](#the-named-laws)
 - There are only two hard things in Computer Science: cache invalidation
   and naming things.[^karlton]
 - The best documentation is the code. The second-best documentation is
@@ -98,18 +108,22 @@ back, next to the canon that keeps them.[^how]
 
 ### The Software Laws
 
-- Conway's Law (1968): organizations design systems that mirror their
-  communication structures.
-- Wirth's Law (1995): software gets slower faster than hardware gets
-  faster.
-- Zawinski's Law (1990s): every program attempts to expand until it can
-  read mail.
-- Greenspun's Tenth Rule (1993): any sufficiently complicated C or
+- <a id="law-conway"></a>[Conway's Law](#the-named-laws) (1968):
+  organizations design systems that mirror their communication
+  structures.
+- <a id="law-wirth"></a>[Wirth's Law](#the-named-laws) (1995): software
+  gets slower faster than hardware gets faster.
+- <a id="law-zawinski"></a>[Zawinski's Law](#the-named-laws) (1990s):
+  every program attempts to expand until it can read mail.
+- <a id="law-greenspun"></a>[Greenspun's Tenth
+  Rule](#the-named-laws) (1993): any sufficiently complicated C or
   Fortran program contains an ad hoc, informally-specified, bug-ridden,
   slow implementation of half of Common Lisp.
-- Linus's Law (1999): given enough eyeballs, all bugs are shallow.
-- Atwood's Law (2007): any application that can be written in
-  JavaScript, will eventually be written in JavaScript.
+- <a id="law-linus"></a>[Linus's Law](#the-named-laws) (1999): given
+  enough eyeballs, all bugs are shallow.
+- <a id="law-atwood"></a>[Atwood's Law](#the-named-laws) (2007): any
+  application that can be written in JavaScript, will eventually be
+  written in JavaScript.
 
 ### The Bestiary
 
@@ -134,26 +148,28 @@ back, next to the canon that keeps them.[^how]
 
 ### The Named Laws
 
-Chronological, because the lineage is half the joke.
+Chronological, because the lineage is half the joke. Each entry links
+to the law as it lives in the lists above — and every named law in the
+lists links back here.
 
 | Law | Author | Year | Lives above |
 |---|---|---|---|
-| Segal's Law | San Diego Union, misattributed to Lee Segal | 1930 | Estimation and Process |
-| Murphy's Law | Edward A. Murphy Jr. | 1949 | Systems |
-| Sturgeon's Law | Theodore Sturgeon | 1957 | Systems |
-| Conway's Law | Melvin Conway | 1968 | The Software Laws |
-| Brooks's Law | Fred Brooks | 1975 | Estimation and Process |
-| Gall's Law | John Gall | 1975 | Systems |
-| Goodhart's Law | Charles Goodhart; phrasing M. Strathern | 1975 | Estimation and Process |
-| Hofstadter's Law | Douglas Hofstadter | 1979 | Estimation and Process |
-| Hanlon's Razor | Robert J. Hanlon | 1980 | Fault and Blame |
-| Ninety-ninety rule | Tom Cargill, Bell Labs | 1985 | Estimation and Process |
-| Greenspun's Tenth Rule | Philip Greenspun | 1993 | The Software Laws |
-| Zawinski's Law | Jamie Zawinski | 1990s | The Software Laws |
-| Wirth's Law | Niklaus Wirth, after Martin Reiser | 1995 | The Software Laws |
-| Linus's Law | Eric S. Raymond | 1999 | The Software Laws |
-| Tesler's Law | Larry Tesler | — | Design |
-| Atwood's Law | Jeff Atwood (attributed) | 2007 | The Software Laws |
+| [Segal's Law](#law-segal) | San Diego Union, misattributed to Lee Segal | 1930 | [Estimation and Process](#estimation-and-process) |
+| [Murphy's Law](#law-murphy) | Edward A. Murphy Jr. | 1949 | [Systems](#systems) |
+| [Sturgeon's Law](#law-sturgeon) | Theodore Sturgeon | 1957 | [Systems](#systems) |
+| [Conway's Law](#law-conway) | Melvin Conway | 1968 | [The Software Laws](#the-software-laws) |
+| [Brooks's Law](#law-brooks) | Fred Brooks | 1975 | [Estimation and Process](#estimation-and-process) |
+| [Gall's Law](#law-gall) | John Gall | 1975 | [Systems](#systems) |
+| [Goodhart's Law](#law-goodhart) | Charles Goodhart; phrasing M. Strathern | 1975 | [Estimation and Process](#estimation-and-process) |
+| [Hofstadter's Law](#law-hofstadter) | Douglas Hofstadter | 1979 | [Estimation and Process](#estimation-and-process) |
+| [Hanlon's Razor](#law-hanlon) | Robert J. Hanlon | 1980 | [Fault and Blame](#fault-and-blame) |
+| [Ninety-ninety rule](#law-ninety-ninety) | Tom Cargill, Bell Labs | 1985 | [Estimation and Process](#estimation-and-process) |
+| [Greenspun's Tenth Rule](#law-greenspun) | Philip Greenspun | 1993 | [The Software Laws](#the-software-laws) |
+| [Zawinski's Law](#law-zawinski) | Jamie Zawinski | 1990s | [The Software Laws](#the-software-laws) |
+| [Wirth's Law](#law-wirth) | Niklaus Wirth, after Martin Reiser | 1995 | [The Software Laws](#the-software-laws) |
+| [Linus's Law](#law-linus) | Eric S. Raymond | 1999 | [The Software Laws](#the-software-laws) |
+| [Tesler's Law](#law-tesler) | Larry Tesler | — | [Design](#design) |
+| [Atwood's Law](#law-atwood) | Jeff Atwood (attributed) | 2007 | [The Software Laws](#the-software-laws) |
 
 ### Canon
 
