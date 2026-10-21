@@ -16,6 +16,10 @@ In other words, what are you doing here? This is my badger's den!
 
 ## Journal
 
+### 21 Oct 2026
+
+Posted [the laws of engineering](laws.md). The classics are credited to their authors; the rest are folklore, which in this jurisdiction carries the same penalty.
+
 ### 16 Oct 2026
 
 It's official. I'm moving on from MACU to a position with BYU OIT. I start November 2nd. Perhaps I'll get my computer fix *and* avoid the stain of filthy lucre. The painful downside? Leaving outstanding people like Russell, Andy, Ben, and Daniel. Truly the best in the industry. Godspeed brethren.
