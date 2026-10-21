@@ -43,6 +43,7 @@ Blame</a></li>
 <li><a href="#estimation-and-process"
 id="toc-estimation-and-process">Estimation and Process</a></li>
 <li><a href="#systems" id="toc-systems">Systems</a></li>
+<li><a href="#safety" id="toc-safety">Safety</a></li>
 </ul></li>
 <li><a href="#discipline-specific-rules"
 id="toc-discipline-specific-rules">Discipline-Specific Rules</a>
@@ -53,6 +54,12 @@ id="toc-discipline-specific-rules">Discipline-Specific Rules</a>
 <li><a href="#the-software-laws" id="toc-the-software-laws">The Software
 Laws</a></li>
 <li><a href="#the-bestiary" id="toc-the-bestiary">The Bestiary</a></li>
+<li><a href="#electrical" id="toc-electrical">Electrical</a></li>
+<li><a href="#mechanical" id="toc-mechanical">Mechanical</a></li>
+<li><a href="#structural" id="toc-structural">Structural</a></li>
+<li><a href="#civil" id="toc-civil">Civil</a></li>
+<li><a href="#process" id="toc-process">Process</a></li>
+<li><a href="#aerospace" id="toc-aerospace">Aerospace</a></li>
 </ul></li>
 <li><a href="#commandments" id="toc-commandments">Commandments</a></li>
 <li><a href="#references" id="toc-references">References</a>
@@ -63,13 +70,21 @@ Laws</a></li>
 </ul></li>
 </ul>
 </nav>
+<blockquote>
+<p>“For a successful technology, reality must take precedence over
+public relations, for nature cannot be fooled.”</p>
+<p>— Richard Feynman, Appendix F, Report of the Presidential Commission
+on the Space Shuttle Challenger Accident, 1986</p>
+</blockquote>
 <p>Every trade keeps commandments. Ours are mostly scar tissue with
-punchlines — the collected paranoia of people who have shipped something
-to production and lived to be sarcastic about it. This page keeps them
-in two drawers: the general truths that survive any discipline, and the
-scar tissue particular to software. The named laws are indexed at the
-back, next to the canon that keeps them.<a href="#fn1"
-class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+punchlines — the collected paranoia of people who have shipped, built,
+or launched something and lived to be sarcastic about it. This page
+keeps them in two drawers: the general truths that survive any
+discipline, and the scar tissue particular to each trade. Software gets
+the deep shelves because it is the author’s trade; the others are here
+because they are funnier. The named laws are indexed at the back, next
+to the canon that keeps them.<a href="#fn1" class="footnote-ref"
+id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <h2 id="general-rules">General Rules</h2>
 <h3 id="fault-and-blame">Fault and Blame</h3>
 <ul class="incremental">
@@ -100,6 +115,9 @@ man with two watches is never sure. — <a
 href="#the-named-laws"><em>Segal’s Law</em></a></li>
 <li><a id="law-brooks"></a>Adding people to a late project makes it
 later. — <a href="#the-named-laws"><em>Brooks’s Law</em></a></li>
+<li><a id="law-parkinson"></a>Work expands so as to fill the time
+available for its completion. — <a
+href="#the-named-laws"><em>Parkinson’s Law</em></a></li>
 <li>Nothing is temporary. Especially temporary fixes.</li>
 </ul>
 <h3 id="systems">Systems</h3>
@@ -112,8 +130,28 @@ href="#the-named-laws"><em>Gall’s Law</em></a></li>
 <li><a id="law-sturgeon"></a>Ninety percent of everything is crap. — <a
 href="#the-named-laws"><em>Sturgeon’s Law</em></a></li>
 <li>Every process exists because something terrible happened once.</li>
+<li>The unit you didn’t convert is the one that loses the spacecraft.<a
+href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></li>
 <li>The most dangerous words in engineering are: “Nobody would ever do
 that.”</li>
+</ul>
+<h3 id="safety">Safety</h3>
+<ul class="incremental">
+<li>Every safety rule is written in blood.</li>
+<li><a id="law-heinrich"></a>For every major injury, 29 minor ones and
+300 near-misses. — <a href="#the-named-laws"><em>Heinrich’s
+Law</em></a><a href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></li>
+<li><a id="law-swiss"></a>No single barrier stops an accident; you stack
+imperfect barriers and hope the holes don’t line up. — <a
+href="#the-named-laws"><em>the Swiss cheese model</em></a><a href="#fn4"
+class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></li>
+<li><a id="law-deviance"></a>Every anomaly you survive becomes
+tomorrow’s procedure. — <a href="#the-named-laws"><em>normalization of
+deviance</em></a><a href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a></li>
 </ul>
 <h2 id="discipline-specific-rules">Discipline-Specific Rules</h2>
 <h3 id="debugging">Debugging</h3>
@@ -121,15 +159,15 @@ that.”</li>
 <li>No matter how well it works, assume it’s broken somewhere.</li>
 <li>If you didn’t test it, it doesn’t work.</li>
 <li>If you only tested it once, it doesn’t work.</li>
-<li>If it works on your machine, that’s where it belongs.<a href="#fn2"
-class="footnote-ref" id="fnref2"
-role="doc-noteref"><sup>2</sup></a></li>
+<li>If it works on your machine, that’s where it belongs.<a href="#fn6"
+class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a></li>
 <li>The bug is never where you first think it is.</li>
 <li>The harder you insist “that can’t be the problem,” the more likely
 it’s the problem.</li>
-<li>Trust, but verify. Then verify the verification.<a href="#fn3"
-class="footnote-ref" id="fnref3"
-role="doc-noteref"><sup>3</sup></a></li>
+<li>Trust, but verify. Then verify the verification.<a href="#fn7"
+class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a></li>
 <li>Assume the logs are lying. Then check them anyway.</li>
 <li>Read the error message. Actually read it.</li>
 <li>Before building a solution, make sure you understand the
@@ -137,14 +175,14 @@ problem.</li>
 <li>The issue you’ve spent six hours chasing is probably a typo.</li>
 <li>The issue that looks like a typo probably isn’t.</li>
 <li>The cleverer the code, the less likely Future You will understand
-it.<a href="#fn4" class="footnote-ref" id="fnref4"
-role="doc-noteref"><sup>4</sup></a></li>
+it.<a href="#fn8" class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a></li>
 </ul>
 <h3 id="operations">Operations</h3>
 <ul class="incremental">
-<li>Everything fails eventually. Design accordingly.<a href="#fn5"
-class="footnote-ref" id="fnref5"
-role="doc-noteref"><sup>5</sup></a></li>
+<li>Everything fails eventually. Design accordingly.<a href="#fn9"
+class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a></li>
 <li>Every system is a distributed system once enough time passes.</li>
 <li>Every distributed system is eventually a messaging system.</li>
 <li>Every success story is built on a pile of postmortems.</li>
@@ -157,28 +195,28 @@ microservices.</li>
 <h3 id="design">Design</h3>
 <ul class="incremental">
 <li>Make it work. Make it right. Make it fast. In that order.<a
-href="#fn6" class="footnote-ref" id="fnref6"
-role="doc-noteref"><sup>6</sup></a></li>
-<li>Every abstraction leaks eventually.<a href="#fn7"
-class="footnote-ref" id="fnref7"
-role="doc-noteref"><sup>7</sup></a></li>
-<li>All models are wrong; some are useful.<a href="#fn8"
-class="footnote-ref" id="fnref8"
-role="doc-noteref"><sup>8</sup></a></li>
-<li>Simple things should be simple. Complex things should be possible.<a
-href="#fn9" class="footnote-ref" id="fnref9"
-role="doc-noteref"><sup>9</sup></a></li>
-<li>We should forget about small efficiencies, say about 97% of the
-time. Premature optimization is the root of all evil.<a href="#fn10"
-class="footnote-ref" id="fnref10"
+href="#fn10" class="footnote-ref" id="fnref10"
 role="doc-noteref"><sup>10</sup></a></li>
+<li>Every abstraction leaks eventually.<a href="#fn11"
+class="footnote-ref" id="fnref11"
+role="doc-noteref"><sup>11</sup></a></li>
+<li>All models are wrong; some are useful.<a href="#fn12"
+class="footnote-ref" id="fnref12"
+role="doc-noteref"><sup>12</sup></a></li>
+<li>Simple things should be simple. Complex things should be possible.<a
+href="#fn13" class="footnote-ref" id="fnref13"
+role="doc-noteref"><sup>13</sup></a></li>
+<li>We should forget about small efficiencies, say about 97% of the
+time. Premature optimization is the root of all evil.<a href="#fn14"
+class="footnote-ref" id="fnref14"
+role="doc-noteref"><sup>14</sup></a></li>
 <li><a id="law-tesler"></a>Every application has an inherent amount of
-complexity that cannot be removed or hidden, only moved.<a href="#fn11"
-class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> —
+complexity that cannot be removed or hidden, only moved.<a href="#fn15"
+class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> —
 <a href="#the-named-laws"><em>Tesler’s Law</em></a></li>
 <li>There are only two hard things in Computer Science: cache
-invalidation and naming things.<a href="#fn12" class="footnote-ref"
-id="fnref12" role="doc-noteref"><sup>12</sup></a></li>
+invalidation and naming things.<a href="#fn16" class="footnote-ref"
+id="fnref16" role="doc-noteref"><sup>16</sup></a></li>
 <li>The best documentation is the code. The second-best documentation is
 documentation.</li>
 </ul>
@@ -204,14 +242,81 @@ eventually be written in JavaScript.</li>
 </ul>
 <h3 id="the-bestiary">The Bestiary</h3>
 <ul class="incremental">
-<li>Heisenbug — vanishes the moment you observe it.<a href="#fn13"
-class="footnote-ref" id="fnref13"
-role="doc-noteref"><sup>13</sup></a></li>
+<li>Heisenbug — vanishes the moment you observe it.<a href="#fn17"
+class="footnote-ref" id="fnref17"
+role="doc-noteref"><sup>17</sup></a></li>
 <li>Bohrbug — solid, repeatable, sits exactly where you expect it.</li>
 <li>Mandelbug — causes so tangled that bug and design become
 indistinguishable.</li>
 <li>Schrödinbug — worked fine until someone read the code and
 noticed.</li>
+</ul>
+<h3 id="electrical">Electrical</h3>
+<ul class="incremental">
+<li>The equipment works because the smoke stays inside. Let the smoke
+out, and it stops working.</li>
+<li>Ground is not ground. There is no ground — only current return paths
+with opinions.</li>
+<li>It’s not RF — until it is. Everything is a transmission line above
+the frequency where it starts to matter.</li>
+<li>Check power first. It is always the power supply until proven
+otherwise.</li>
+</ul>
+<h3 id="mechanical">Mechanical</h3>
+<ul class="incremental">
+<li>If it moves and it shouldn’t: duct tape. If it doesn’t move and it
+should: WD-40.</li>
+<li>Everything is a spring. Also a mass, a damper, and a vibration
+source you didn’t model.</li>
+<li>Fatigue cracks start at the stress concentration you didn’t
+draw.</li>
+<li>Tolerances stack. The stack is always against you.</li>
+<li>A bearing runs fine right up until the moment it doesn’t.</li>
+</ul>
+<h3 id="structural">Structural</h3>
+<ul class="incremental">
+<li>Concrete will crack. Your only choice is where.</li>
+<li>You don’t design structures not to fail. You design how they fail.<a
+href="#fn18" class="footnote-ref" id="fnref18"
+role="doc-noteref"><sup>18</sup></a></li>
+<li>Strength, stiffness, stability — failure is whichever you
+forgot.</li>
+<li>The load finds the path you didn’t design.</li>
+<li>Every structure has a natural frequency. The operating speed — or
+the wind — will find it.<a href="#fn19" class="footnote-ref"
+id="fnref19" role="doc-noteref"><sup>19</sup></a></li>
+<li>“It’s been standing for a hundred years” is the most expensive
+sentence in renovation.</li>
+</ul>
+<h3 id="civil">Civil</h3>
+<ul class="incremental">
+<li>As-built drawings are a work of fiction.</li>
+<li>Water always wins. There are two kinds of basements: those that leak
+and those that will.</li>
+<li>The most important material on site is the one you can’t see,
+sample, or fully characterize.</li>
+<li>When in doubt, make it stout.</li>
+</ul>
+<h3 id="process">Process</h3>
+<ul class="incremental">
+<li><a id="law-kletz"></a>What you don’t have, can’t leak. — <a
+href="#the-named-laws"><em>inherent safety</em></a><a href="#fn20"
+class="footnote-ref" id="fnref20"
+role="doc-noteref"><sup>20</sup></a></li>
+<li>If you think safety is expensive, try an accident.<a href="#fn21"
+class="footnote-ref" id="fnref21"
+role="doc-noteref"><sup>21</sup></a></li>
+<li>Every valve is a leak path; every pump is a seal failure in
+waiting.</li>
+</ul>
+<h3 id="aerospace">Aerospace</h3>
+<ul class="incremental">
+<li>Test as you fly, fly as you test.<a href="#fn22"
+class="footnote-ref" id="fnref22"
+role="doc-noteref"><sup>22</sup></a></li>
+<li>The accident you planned for is not the accident you get.</li>
+<li>Murphy was one of ours — an electrical engineer on a rocket-sled
+program. See Systems, above.</li>
 </ul>
 <h2 id="commandments">Commandments</h2>
 <ul class="incremental">
@@ -219,11 +324,11 @@ noticed.</li>
 <li>If it isn’t documented, it doesn’t exist.</li>
 <li>If it works perfectly, you’re missing something.</li>
 <li>The customer will always find the one workflow you never tested.<a
-href="#fn14" class="footnote-ref" id="fnref14"
-role="doc-noteref"><sup>14</sup></a></li>
+href="#fn23" class="footnote-ref" id="fnref23"
+role="doc-noteref"><sup>23</sup></a></li>
 <li>Future You is a different person and deserves kindness.<a
-href="#fn15" class="footnote-ref" id="fnref15"
-role="doc-noteref"><sup>15</sup></a></li>
+href="#fn24" class="footnote-ref" id="fnref24"
+role="doc-noteref"><sup>24</sup></a></li>
 <li>The root cause is usually human, even when the symptom is
 technical.</li>
 <li>Production gets a vote.</li>
@@ -256,10 +361,22 @@ lists links back here.</p>
 <td><a href="#estimation-and-process">Estimation and Process</a></td>
 </tr>
 <tr class="even">
+<td><a href="#law-heinrich">Heinrich’s Law</a></td>
+<td>H. W. Heinrich</td>
+<td>1931</td>
+<td><a href="#safety">Safety</a></td>
+</tr>
+<tr class="odd">
 <td><a href="#law-murphy">Murphy’s Law</a></td>
 <td>Edward A. Murphy Jr.</td>
 <td>1949</td>
 <td><a href="#systems">Systems</a></td>
+</tr>
+<tr class="even">
+<td><a href="#law-parkinson">Parkinson’s Law</a></td>
+<td>C. Northcote Parkinson</td>
+<td>1955</td>
+<td><a href="#estimation-and-process">Estimation and Process</a></td>
 </tr>
 <tr class="odd">
 <td><a href="#law-sturgeon">Sturgeon’s Law</a></td>
@@ -304,21 +421,33 @@ lists links back here.</p>
 <td><a href="#fault-and-blame">Fault and Blame</a></td>
 </tr>
 <tr class="even">
+<td><a href="#law-kletz">Inherent safety</a></td>
+<td>Trevor Kletz</td>
+<td>1984</td>
+<td><a href="#process">Process</a></td>
+</tr>
+<tr class="odd">
 <td><a href="#law-ninety-ninety">Ninety-ninety rule</a></td>
 <td>Tom Cargill, Bell Labs</td>
 <td>1985</td>
 <td><a href="#estimation-and-process">Estimation and Process</a></td>
 </tr>
-<tr class="odd">
-<td><a href="#law-greenspun">Greenspun’s Tenth Rule</a></td>
-<td>Philip Greenspun</td>
-<td>1993</td>
-<td><a href="#the-software-laws">The Software Laws</a></td>
-</tr>
 <tr class="even">
+<td><a href="#law-swiss">Swiss cheese model</a></td>
+<td>James T. Reason</td>
+<td>1990</td>
+<td><a href="#safety">Safety</a></td>
+</tr>
+<tr class="odd">
 <td><a href="#law-zawinski">Zawinski’s Law</a></td>
 <td>Jamie Zawinski</td>
 <td>1990s</td>
+<td><a href="#the-software-laws">The Software Laws</a></td>
+</tr>
+<tr class="even">
+<td><a href="#law-greenspun">Greenspun’s Tenth Rule</a></td>
+<td>Philip Greenspun</td>
+<td>1993</td>
 <td><a href="#the-software-laws">The Software Laws</a></td>
 </tr>
 <tr class="odd">
@@ -328,18 +457,24 @@ lists links back here.</p>
 <td><a href="#the-software-laws">The Software Laws</a></td>
 </tr>
 <tr class="even">
+<td><a href="#law-deviance">Normalization of deviance</a></td>
+<td>Diane Vaughan</td>
+<td>1996</td>
+<td><a href="#safety">Safety</a></td>
+</tr>
+<tr class="odd">
 <td><a href="#law-linus">Linus’s Law</a></td>
 <td>Eric S. Raymond</td>
 <td>1999</td>
 <td><a href="#the-software-laws">The Software Laws</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="#law-tesler">Tesler’s Law</a></td>
 <td>Larry Tesler</td>
 <td>—</td>
 <td><a href="#design">Design</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="#law-atwood">Atwood’s Law</a></td>
 <td>Jeff Atwood (attributed)</td>
 <td>2007</td>
@@ -352,6 +487,12 @@ lists links back here.</p>
 <li><a
 href="https://en.wikipedia.org/wiki/List_of_laws_named_after_people">Wikipedia:
 List of eponymous laws</a> — the umbrella index.</li>
+<li><a href="https://llis.nasa.gov">NASA Lessons Learned Information
+System</a> — where test-as-you-fly lives, written the hard way.</li>
+<li><a
+href="https://faculty.washington.edu/seattle/physics541/2012-reading/appendix.pdf">Feynman’s
+Appendix F</a> — the epigraph’s primary source (Rogers Commission,
+1986).</li>
 <li><a href="http://www.catb.org/jargon/">The Jargon File</a> — the
 hacker-folklore canon, in print since <em>The Hacker’s Dictionary</em>
 (1983, ed. Steele).</li>
@@ -362,6 +503,14 @@ Murphy archive, origin story included.</li>
 <li><a href="https://melconway.com/Home/pdf/committees.pdf">“How Do
 Committees Invent?”</a> — Conway’s original paper (Datamation, April
 1968). Primary source.</li>
+<li>Trevor Kletz, <em>What Went Wrong? Case Histories of Process Plant
+Disasters</em> — process-safety case law.</li>
+<li>Diane Vaughan, <em>The Challenger Launch Decision</em> (1996) —
+normalization of deviance, from the source.</li>
+<li>James Reason, <em>Human Error</em> (1990) — the Swiss cheese
+model.</li>
+<li>Henry Petroski, <em>To Engineer Is Human</em> — the case-law canon
+of engineering failure.</li>
 </ul>
 <aside id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
@@ -372,67 +521,100 @@ real source in October 2026. “Attributed” means the saying is
 universally associated with the name but no primary source survives —
 the usual condition of engineering law.<a href="#fnref1"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Folklore. The joke predates Docker; Docker (2013) turned
-“then we’ll ship your machine” into a business model.<a href="#fnref2"
-class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Russian proverb — <em>doveryai, no proveryai</em> —
-quoted by Ronald Reagan to Mikhail Gorbachev at the Höfði House meeting,
-Reykjavík, 1986.<a href="#fnref3" class="footnote-back"
+<li id="fn2"><p>Mars Climate Orbiter, 1999 — a measurement mismatch
+between SI units (NASA) and US customary units (Lockheed Martin). The
+mission was 286 days old.<a href="#fnref2" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Cf. Brian Kernighan, <em>The Elements of Programming
+<li id="fn3"><p>H. W. Heinrich, <em>Industrial Accident Prevention</em>
+(1931). Modern safety research calls the ratios “the least tenable of
+his premises” — the warning matters more than the arithmetic.<a
+href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>James T. Reason, <em>Human Error</em> (1990). The holes
+line up along what Reason called “a trajectory of accident
+opportunity.”<a href="#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Diane Vaughan, <em>The Challenger Launch Decision</em>
+(1996): a clearly unsafe practice becomes normal if it does not
+immediately cause a catastrophe.<a href="#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Folklore. The joke predates Docker; Docker (2013) turned
+“then we’ll ship your machine” into a business model.<a href="#fnref6"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Russian proverb — <em>doveryai, no proveryai</em> —
+quoted by Ronald Reagan to Mikhail Gorbachev at the Höfði House meeting,
+Reykjavík, 1986.<a href="#fnref7" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Cf. Brian Kernighan, <em>The Elements of Programming
 Style</em> (2nd ed., with P. J. Plauger), ch. 2: “Everyone knows that
 debugging is twice as hard as writing a program in the first place. So
 if you’re as clever as you can be when you write it, how will you ever
-debug it?”<a href="#fnref4" class="footnote-back"
+debug it?”<a href="#fnref8" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Werner Vogels, AWS CTO (2008): “Everything fails, all
-the time.”<a href="#fnref5" class="footnote-back"
+<li id="fn9"><p>Werner Vogels, AWS CTO (2008): “Everything fails, all
+the time.”<a href="#fnref9" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>Attributed to Kent Beck (extreme programming), via the
-original c2 wiki.<a href="#fnref6" class="footnote-back"
+<li id="fn10"><p>Attributed to Kent Beck (extreme programming), via the
+original c2 wiki.<a href="#fnref10" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p><a
+<li id="fn11"><p><a
 href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">Joel
 Spolsky, “The Law of Leaky Abstractions”</a>, Joel on Software, 11
 November 2002: “All non-trivial abstractions, to some degree, are
-leaky.”<a href="#fnref7" class="footnote-back"
+leaky.”<a href="#fnref11" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn8"><p>George E. P. Box. The famous short form appears in Box
+<li id="fn12"><p>George E. P. Box. The famous short form appears in Box
 &amp; Draper, <em>Empirical Model-Building and Response Surfaces</em>
 (1987); <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">the
 1976 paper everyone cites</a> (“Science and Statistics,” JASA) contains
-the long form.<a href="#fnref8" class="footnote-back"
+the long form.<a href="#fnref12" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn9"><p>Attributed to Alan Kay.<a href="#fnref9"
+<li id="fn13"><p>Attributed to Alan Kay.<a href="#fnref13"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn10"><p>Donald Knuth, “Structured Programming with go to
+<li id="fn14"><p>Donald Knuth, “Structured Programming with go to
 Statements,” ACM Computing Surveys, 1974: “We should forget about small
 efficiencies, say about 97% of the time: premature optimization is the
 root of all evil. Yet we should not pass up our opportunities in that
-critical 3%.”<a href="#fnref10" class="footnote-back"
+critical 3%.”<a href="#fnref14" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn11"><p>Larry Tesler (Xerox PARC, Apple) — the <a
+<li id="fn15"><p>Larry Tesler (Xerox PARC, Apple) — the <a
 href="https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity">law
-of conservation of complexity</a>.<a href="#fnref11"
+of conservation of complexity</a>.<a href="#fnref15"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn12"><p>Attributed to Phil Karlton (Netscape). The folk
-extension adds “…and off-by-one errors.”<a href="#fnref12"
+<li id="fn16"><p>Attributed to Phil Karlton (Netscape). The folk
+extension adds “…and off-by-one errors.”<a href="#fnref16"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn13"><p>Taxonomy per the <a
+<li id="fn17"><p>Taxonomy per the <a
 href="http://www.catb.org/jargon/">Jargon File</a> and its descendants.
 The heisenbug is a pun on Heisenberg’s observer effect — the probe is
-what breaks it.<a href="#fnref13" class="footnote-back"
+what breaks it.<a href="#fnref17" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
-<li id="fn14"><p>Cf. <a
+<li id="fn18"><p>Capacity design — the central idea of modern seismic
+codes. The structure yields where you chose, not where gravity
+prefers.<a href="#fnref18" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>Tacoma Narrows, 1940 — Galloping Gertie met aeroelastic
+flutter on camera. The footage is still teaching.<a href="#fnref19"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>Trevor Kletz — the phrase is the title of his paper
+that began inherent safety, expanded into <em>Cheaper, Safer Plants</em>
+(1984).<a href="#fnref20" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p>Attributed to Trevor Kletz.<a href="#fnref21"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p>NASA’s system-level test principle (Lessons Learned
+LL-1196). Mars Polar Lander, 1999, arrived silent after violations of
+it.<a href="#fnref22" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p>Cf. <a
 href="https://www.laws-of-software.com/laws/hyrum/">Hyrum’s Law</a>,
 Hyrum Wright: “With a sufficient number of users of an API, it does not
 matter what you promise in the contract: all observable behaviors of
-your system will be depended on by somebody.”<a href="#fnref14"
+your system will be depended on by somebody.”<a href="#fnref23"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn15"><p>In that spirit: “Always code as if the guy who ends up
+<li id="fn24"><p>In that spirit: “Always code as if the guy who ends up
 maintaining your code will be a violent psychopath who knows where you
 live.” — John Woods, comp.lang.c++, September 1991. Routinely
-misattributed to Martin Golding.<a href="#fnref15" class="footnote-back"
+misattributed to Martin Golding.<a href="#fnref24" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </aside>
