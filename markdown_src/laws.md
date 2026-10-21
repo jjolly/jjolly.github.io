@@ -84,6 +84,24 @@ to the canon that keeps them.[^how]
   procedure. — [*normalization of
   deviance*](#the-named-laws)[^deviance]
 
+### Conduct
+
+- However menial and trivial your early assignments may appear, give
+  them your best efforts.[^king]
+- There is always a premium upon the ability to get things done.
+- Confirm your instructions and the other fellow's commitments in
+  writing.
+- Avoid the very appearance of vacillation.
+- Don't be timid — speak up — express yourself and promote your ideas.
+  The quiet, mousey individual who says nothing is usually credited
+  with having nothing to say.
+- Be extremely careful of the accuracy of your statements. A wrong
+  answer is worse than no answer; if you do not know, say so, and say
+  you'll find out right away.
+- Be as particular as you can in the selection of your boss — in its
+  effect upon your career, second in importance only to the selection
+  of proper parents.
+
 ## Discipline-Specific Rules
 
 ### Debugging
@@ -289,6 +307,13 @@ lists links back here.
 source in October 2026. "Attributed" means the saying is universally
 associated with the name but no primary source survives — the usual
 condition of engineering law.
+
+[^king]: W. J. King, *The Unwritten Laws of Engineering*
+([Mechanical Engineering, May–July 1944](https://archive.org/details/the-unwritten-laws-of-engineering)).
+King wrote it because engineers were "getting into much more trouble
+by violating the unwritten laws of professional conduct than by
+committing technical sins against the well-documented laws of
+science."
 
 [^mco]: Mars Climate Orbiter, 1999 — a measurement mismatch between SI
 units (NASA) and US customary units (Lockheed Martin). The mission was
