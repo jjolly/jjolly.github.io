@@ -129,6 +129,9 @@ to the canon that keeps them.[^how]
 - Every distributed system is eventually a messaging system.
 - Every success story is built on a pile of postmortems.
 - Production is the world's most expensive test environment.
+- Never deploy on a Friday.[^friday]
+- Fight orders to deploy on a Friday as if your life (and your weekend)
+  depend on it.
 - There are two kinds of systems: those that are down, and those that
   haven't gone down yet.
 - The customer experiences one system, not seventeen microservices.
@@ -318,6 +321,9 @@ science."
 [^mco]: Mars Climate Orbiter, 1999 — a measurement mismatch between SI
 units (NASA) and US customary units (Lockheed Martin). The mission was
 286 days old.
+
+[^friday]: Folklore. The corollary is the proprietor's, and it was
+hard-won.
 
 [^heinrich]: H. W. Heinrich, *Industrial Accident Prevention* (1931).
 Modern safety research calls the ratios "the least tenable of his
