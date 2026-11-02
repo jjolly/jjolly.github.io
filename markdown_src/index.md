@@ -16,6 +16,10 @@ In other words, what are you doing here? This is my badger's den!
 
 ## Journal
 
+### 02 Nov 2026
+
+First day at BYU OIT. My first thirty minutes were spent realizing that my list was lacking. Brian helped me rectify the deficiency. A good omen.
+
 ### 21 Oct 2026
 
 Posted [the laws of engineering](laws.md). The classics are credited to their authors; the rest are folklore, which in this jurisdiction carries the same penalty.
