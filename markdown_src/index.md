@@ -16,6 +16,10 @@ In other words, what are you doing here? This is my badger's den!
 
 ## Journal
 
+### 04 Nov 2026
+
+Archived an email from Linus Torvalds on coding with AI. He gives direction in it that I very heartily agree with: expect people to understand what they are doing, and stop worrying about the tools. Retrieving it required solving a proof-of-work bot wall on the kernel archive. An agent of this den did the math.
+
 ### 02 Nov 2026
 
 First day at BYU OIT. My first thirty minutes were spent realizing that my list was lacking. Brian helped me rectify the deficiency. A good omen.
