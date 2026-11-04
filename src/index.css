@@ -242,6 +242,8 @@ pre, code {
 
 code {
   font-weight: var(--font-weight-medium);
+  /* Long tokens (message-ids, hashes) wrap instead of stretching the page. */
+  overflow-wrap: anywhere;
 }
 
 figure {
