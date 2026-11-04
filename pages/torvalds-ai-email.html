@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="John Jolly" />
+  <meta name="dcterms.date" content="2026-11-04" />
+  <title>Linus Torvalds on Coding with AI</title>
+  <link rel="stylesheet" href="/src/reset.css" />
+  <link rel="stylesheet" href="/src/index.css" />
+</head>
+<body>
+<table class="header">
+  <tr>
+    <td colspan="2" rowspan="2" class="width-auto">
+      <h1 class="title">Linus Torvalds on Coding with AI</h1>
+      <span class="subtitle">An LKML email, archived verbatim because
+links rot</span>
+    </td>
+    <th>Version</th>
+    <td class="width-min">v0.1.5</td>
+  </tr>
+  <tr>
+    <th>Updated</th>
+    <td class="width-min"><time style="white-space: pre;">2026-11-04</time></td>
+  </tr>
+  <tr>
+    <th class="width-min">Author</th>
+    <td class="width-auto"><a href="https://selfserving.systems"><cite>John
+Jolly</cite></a></td>
+    <th class="width-min">License</th>
+    <td>MIT</td>
+  </tr>
+</table>
+<label class="debug-toggle-label"><input type="checkbox" class="debug-toggle" /> Debug mode</label>
+<nav id="TOC" role="doc-toc">
+<h2 id="toc-title">Contents</h2>
+<ul class="incremental">
+<li><a href="#headers-of-record" id="toc-headers-of-record">Headers of
+Record</a></li>
+<li><a href="#the-message" id="toc-the-message">The Message</a></li>
+<li><a href="#archivists-note" id="toc-archivists-note">Archivist’s
+Note</a></li>
+</ul>
+</nav>
+<p>The kernel mailing list occasionally produces an email that deserves
+to survive its thread. This is one. It is preserved here verbatim — byte
+for byte, signature spacing included — because external references rot,
+and this proprietor does not trust them.</p>
+<h2 id="headers-of-record">Headers of Record</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>From</strong></td>
+<td>Linus Torvalds <code>torvalds@linux-foundation.org</code></td>
+</tr>
+<tr class="even">
+<td><strong>Date</strong></td>
+<td>Tue, 13 Oct 2026 13:45:09 -0700</td>
+</tr>
+<tr class="odd">
+<td><strong>Subject</strong></td>
+<td>Re: [PATCH] docs: remove Assisted-by references</td>
+</tr>
+<tr class="even">
+<td><strong>To</strong></td>
+<td>Laurent Pinchart <code>laurent.pinchart@ideasonboard.com</code></td>
+</tr>
+<tr class="odd">
+<td><strong>Cc</strong></td>
+<td>28 recipients — Kees Cook, Jori Koolstra, and the kernel
+documentation crowd; full list in the raw message</td>
+</tr>
+<tr class="even">
+<td><strong>Message-ID</strong></td>
+<td><code>CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com</code></td>
+</tr>
+<tr class="odd">
+<td><strong>Thread</strong></td>
+<td>A patch to remove Assisted-by references from the kernel
+documentation</td>
+</tr>
+<tr class="even">
+<td><strong>Source</strong></td>
+<td><a
+href="https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/">lore.kernel.org</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-message">The Message</h2>
+<pre class="text"><code>On Tue, 13 Oct 2026 at 13:16, Laurent Pinchart
+&lt;laurent.pinchart@ideasonboard.com&gt; wrote:
+&gt;
+&gt; What this is about is setting our expectations, telling what we want and
+&gt; what we don&#39;t want.
+
+No. What you are about is something entirely different. It has nothing
+to do with &quot;expectations&quot;, and it has everything to do with your
+hangups.
+
+I don&#39;t understand this whole idiotic concept of &quot;don&#39;t use AI for X&quot;.
+
+Here&#39;s a new rule just for you: don&#39;t use compilers for any of your
+kernel submissions.
+
+Because if you can&#39;t show that you really understand what the machine
+is actually doing by writing your code in assembler, then I don&#39;t want
+to see your code contribution. You clearly aren&#39;t competent if you
+can&#39;t write it that way.
+
+And btw, you had better not use an editor to write that commit message either.
+
+Because I need you to show me that you can actually write a good
+commit message without using tools that make it easy to backspace and
+hide the mistakes you made while typing.
+
+Ok?
+
+Because otherwise those tool-assisted commits of yours clearly aren&#39;t
+showing that you know what you are doing.
+
+Do you not see how UTTERLY STUPID those kinds of rules would be?
+
+So no. We&#39;re not going to make stupid rules that say &quot;you can&#39;t use
+tools for X&quot;.
+
+The kind of expectations *I* have is that people do their best and I
+expect people to understand what they are doing.
+
+But that understanding has very little to do with what tools they use.
+
+And quite honestly, in my experience, the people I respect and call
+intelligent are not the ones that shy away from using new and
+interesting tools.
+
+                   Linus
+</code></pre>
+<h2 id="archivists-note">Archivist’s Note</h2>
+<p>Retrieved 4 Nov 2026 from <a
+href="https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/">lore.kernel.org</a>.
+The raw RFC 822 message — full headers, DKIM and ARC signatures and all
+— is committed alongside the site sources at
+<code>docs/torvalds-ai-email.eml</code>, so this archive does not depend
+on the rendered page alone.</p>
+<p>Retrieval required solving the archive’s own proof-of-work challenge:
+a bot wall, erected against scrapers, standing guard over an email about
+not making rules against tools. The irony is noted and, with respect,
+appreciated.</p>
+    <div class="debug-grid"></div>
+  <script src="/src/index.js"></script>
+</body>
+</html>

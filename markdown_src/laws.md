@@ -101,6 +101,8 @@ to the canon that keeps them.[^how]
 - Be as particular as you can in the selection of your boss — in its
   effect upon your career, second in importance only to the selection
   of proper parents.
+- Expect people to understand what they are doing. That understanding
+  has very little to do with what tools they use.[^torvalds]
 
 ## Discipline-Specific Rules
 
@@ -324,6 +326,12 @@ units (NASA) and US customary units (Lockheed Martin). The mission was
 
 [^friday]: Folklore. The corollary is the proprietor's, and it was
 hard-won.
+
+[^torvalds]: Linus Torvalds, LKML, 13 Oct 2026, on rules against
+coding with AI — [archived verbatim](torvalds-ai-email.md);
+[source](https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/).
+"We're not going to make stupid rules that say 'you can't use tools for
+X.'"
 
 [^heinrich]: H. W. Heinrich, *Industrial Accident Prevention* (1931).
 Modern safety research calls the ratios "the least tenable of his
