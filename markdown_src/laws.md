@@ -83,6 +83,8 @@ to the canon that keeps them.[^how]
 - <a id="law-deviance"></a>Every anomaly you survive becomes tomorrow's
   procedure. — [*normalization of
   deviance*](#the-named-laws)[^deviance]
+- The mistakes nobody talks about are the ones that eventually get
+  people killed.[^kinzinger]
 
 ### Conduct
 
@@ -332,6 +334,11 @@ coding with AI — [archived verbatim](torvalds-ai-email.md);
 [source](https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/).
 "We're not going to make stupid rules that say 'you can't use tools for
 X.'"
+
+[^kinzinger]: Adam Kinzinger, ["Public Safety Is Not a Loyalty
+Test"](https://open.substack.com/pub/adamkinzinger/p/public-safety-is-not-a-loyalty-test),
+16 Nov 2026 — on the military flight debrief, where "rank doesn't count
+in that room." The sentence is his; the tradition is older.
 
 [^heinrich]: H. W. Heinrich, *Industrial Accident Prevention* (1931).
 Modern safety research calls the ratios "the least tenable of his
