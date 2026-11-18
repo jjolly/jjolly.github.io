@@ -18,7 +18,7 @@ In other words, what are you doing here? This is my badger's den!
 
 ### 16 Nov 2026
 
-First snow of the season. I love it when I finally can cover that eyesore of a front yard. It won't last, but at least I get a day's reprieve from looking at it.
+"Frist snoe" of the season. I love it when I finally can cover that eyesore of a front yard. It won't last, but at least I get a day's reprieve from looking at it.
 
 ### 04 Nov 2026
 
